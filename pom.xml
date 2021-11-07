@@ -5,6 +5,10 @@
 	<groupId>anz-api-test-excercise</groupId>
 	<artifactId>anz-api-test-excercise</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 		<dependency>
@@ -54,6 +58,6 @@
 			<artifactId>json</artifactId>
 			<version>20210307</version>
 		</dependency>
-
+	
 	</dependencies>
 </project>
